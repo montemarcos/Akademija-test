@@ -1,0 +1,6 @@
+canvas {
+    width:50vw;
+    height:50vh;
+    border: solid black 1px; 
+    background-color: aqua;
+}

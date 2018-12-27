@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Events</title>
+        <meta charset="UTF-8" />
+        <link type="text/css" rel="stylesheet" href="style.css" />
+        <script src="kod.js" defer></script>
+    </head>
+    <body>
+        <h1>Reakcija na dogadjaje</h1>
+        <div>
+            <img src="images/florence.jpg" alt="Nema slike" id="nekaslika"/>
+        </div>
+        <form id="myform">
+            <label for="search">Unesite tekst</label><input type="text" id="search" />
+            <select>
+                <option>Slika 1</option>
+                <option>Slika 2</option>
+                <option>Slika 3</option>
+            </select>
+            <select id="multi" multiple >
+                <option selected>Ivo ANdric</option>
+                <option>Branko Copic</option>
+                <option selected>Mesa Selimovic</option>
+                <option>Mihajlo Lalic</option>
+                <option>Miroslav Krleza</option>
+            </select>
+            <button id="fillimage">Popuni sliku</button>
+            <button id="listselect">Popuni iz liste</button>
+            <button id="farba">Farbanje</button>
+			<input type="color" id="boja" />
+			<span class="dugme">Fill Image</span>
+        </form>
+    </body>
+</html>

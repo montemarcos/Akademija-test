@@ -1,0 +1,8 @@
+button {margin: 15px; padding:2px;}
+button:hover {
+    background-color: black; 
+    color: white;
+    }
+
+    .dugme {padding:5px; background: grey;text-align: center; border: solid 1px black;  }
+    .dugme:hover {background:black; color:white; border: solid 1px red; }

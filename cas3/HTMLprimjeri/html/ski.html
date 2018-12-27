@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>State College Ski Club</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body>
+<h1>Ski Club Signup Page</h1>
+<form action="mailto:pyoung@cs.stanford.edu"
+	method="post"
+	enctype="text/plain" name="signup" id="signup">
+<table border="1">
+
+<tr><td><b>Personal Information</b><br />
+	<table>
+		<tr><td>Name:</td>
+			<td><input name="name" type="text" size="25" /></td></tr>
+		<tr><td>E-Mail:</td>
+			<td><input name="e-mail" type="text" size="25" /></td></tr>
+		<tr><td>Credit Card:</td>
+			<td><input name="credit" type="text" size="25" /></td></tr>
+	</table>
+</td></tr>
+
+<tr><td><b>Travel Arrangements:</b><br />
+	<input name="travel" type="radio" value="none" />None
+	<input name="travel" type="radio" value="bus" checked="checked" />Bus $25
+	<input name="travel" type="radio" value="air" />Airplane $85</td></tr>
+<tr><td><b>Housing and Meals:</b><br />
+
+<tr><td><b>Housing and Meals:</b><br />
+	<table>
+		<tr><td><i>Room Choices</i><br />
+			<input name="room" type="radio" value="single" />
+				Single ($80/night)
+			<input name="room" type="radio" value="double" />
+				Double ($40/night)
+		</td></tr>
+		<tr><td><i>Meals desired ($8 each):</i><br />
+		<table>
+			<tr><td>Friday Dinner</td>
+				<td><input name="fridayDinner" type="checkbox" /></td></tr>
+			<tr><td>Saturday Dinner</td>
+				<td><input name="saturdayDinner" type="checkbox" /></td></tr>
+			<tr><td>Sunday Dinner</td>
+				<td><input name="sundayDinner" type="checkbox" /></td></tr>
+		</table></td></tr>
+	</table>
+</td></tr>
+
+<tr><td><b>Ski Package:</b><br />
+	<table>
+		<tr><td>Days of Lift Tickets:
+			<input name="days" type="text" size="3" maxlength="1" /></td></tr>
+		<tr><td>Rental Package:
+			<select name="rentalPackage">
+				<option>None</option>
+				<option>Ski Package ($25)</option>
+				<option>Snowboard Package ($30)</option>
+			</select></td></tr>
+	</table>
+</td></tr>
+</table>
+<input value="Submit" type="submit" />
+<input value="Reset" type="reset" />
+</form>
+</body>
+</html>

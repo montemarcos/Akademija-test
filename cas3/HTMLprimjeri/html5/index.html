@@ -1,0 +1,125 @@
+<!DOCTYPE html >
+<html>
+<head>
+<title>Primjeri HTML5</title>
+</head>
+<body>
+<h1> 
+	HTML5 - primjeri
+</h1>
+<details>
+<summary>PMF Podgorica</summary>
+<p> Primjeri iz HTML5.</p>
+<p> Predmet: Internet tehnologije</p>
+</details>
+<figure>
+  <img src="stanford-store-logo.jpg" alt="The Pulpit Rock" width="304" height="228">
+	<figcaption>PMF Podgorica caption</figcaption>
+</figure>
+<table border="1" cellpadding="4" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Month</th>
+      <th>Savings</th>
+    </tr>
+  </thead>
+  <tfoot>
+    <tr>
+      <td>Sum</td>
+      <td>$180</td>
+    </tr>
+  </tfoot>
+  <tbody>
+    <tr>
+      <td>January</td>
+      <td>$100</td>
+    </tr>
+    <tr>
+      <td>February</td>
+      <td>$80</td>
+    </tr>
+  </tbody>
+</table>
+<br />
+<form method="post" action="form.aspx">
+	
+	<input type="password" name="pass" id="pass" /> <label for="pass">Password</label> <br/> 
+	<input type="reset" name="resetBtn" value="Reset the form" /> <br/>
+	<input type="submit" value="Apply Now" /> <br/>
+	<input type="image" src="stanford-store-logo.jpg" name="submitBtn" alt="Submit" /> <br/>
+	<input type="button" value="click me" /> <br/>
+   <input type="checkbox" name="fruit" id="fruit" value="apple" /> <label for="fruit">Jabuka</label> <br/>
+   <input type="checkbox" name="fruit" id="pear" value="pear" /> <label for="pear">Kruska</label> <br/>
+   <input type="radio" name="city" value="Lom" id="fruit1"/> <label for="fruit1">Podgorica</label><br/>
+	<input type="radio" name="city" value="Ruse" id="fruit2" /> <label for="fruit2">Niksisc</label><br/>
+	<fieldset>
+      <legend>Pol</legend>
+	  <label for="male">Muski</label>
+      <input type="radio" name="pol" id="male" />
+	  <label for="female">Zenski</label>
+      <input type="radio"  name="pol" id="female" />
+   </fieldset>
+	<select name="gender">
+		<option value="Value 1" selected>Male</option>
+		<option value="Value 2">Female</option>
+		<option value="Value 3">Other</option>
+	</select>
+	<br/>
+	
+	<label for="music">Muzika:</label>
+	<select id="music">
+		<optgroup label="UK">
+			<option value="U2">U2</option>
+			<option value="Blur">Blur</option>
+		</optgroup>
+		<optgroup label="USA">
+			<option value="Pixies" selected>Pixies</option>
+			<option value="Heads">Talking Heads</option>
+			<option value="Love">Love</option>
+			<option value="Dylan">Bob Dylan</option>
+		</optgroup>
+		<optgroup label="YU">
+			<option value="Partibrejkers">Partibrejkers</option>
+			<option value="Luna">Luna</option>
+			<option value="Haustor">Haustor</option>
+		</optgroup>
+	</select>
+	<br/>
+	<select name="products" multiple="multiple">
+		<option value="Value 1" selected="selected">keyboard</option>
+		<option value="Value 2">mouse</option>
+		<option value="Value 3">trackball</option>
+		<option value="Value 4">pen</option>
+	</select>
+	<br/>
+	<input type="range" min="0" max="100" /> <br/>
+	<input type="number" min="0" max="100" /> <br/>
+   
+	<br/><label for="browser">Browsers:<input list="browsers" id="browser"> <br/>
+
+	<datalist id="browsers">
+	  <option value="Internet Explorer">
+	  <option value="Firefox">
+	  <option value="Chrome">
+	  <option value="Opera">
+	  <option value="Safari">
+	</datalist> 
+
+   <fieldset>
+      <legend>Client Details</legend>
+	  <label for="Name">Name</label>
+      <input type="text" id="Name" />
+	  <label for="Phone">Phone</label>
+      <input type="text" id="Phone" />
+   </fieldset>
+   <fieldset>
+      <legend>Order Details</legend>
+      <label for="Quantity">Quantity</label>
+	  <input type="text" id="Quantity" />
+	  <label for="Name">Remarks</label>
+      <textarea cols="40" rows="10" id="Remarks"></textarea>
+   </fieldset>
+</form>
+</body>
+</html>
+

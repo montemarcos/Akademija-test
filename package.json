@@ -1,0 +1,20 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "Prvi node projekt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./dist/server.js"
+  },
+  "author": "Studio Piksel",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "@types/express": "^4.16.0",
+    "@types/hbs": "^4.0.0",
+    "express": "^4.16.4",
+    "hbs": "^4.0.1",
+    "nodemon": "^1.18.9"
+  }
+}
